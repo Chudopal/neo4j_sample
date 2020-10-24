@@ -1,0 +1,40 @@
+CREATE
+	(qq: Person {name: "Даниил Вячеславович", post: "Доцент"}), 
+    (ww: Person {name: "Наталья Анатольевна", post: "Доцент"}), 
+    (ee: Person {name: "Владимир Владимирович", post: "Доцент"}), 
+    (rr: Person {name: "Алексей Игоревич", post: "Магистр"}), 
+    (tt: Person {name: "ирина тимофеевна", post: "Доцент"}), 
+    (yy: Person {name: "Владимир Васильевич", subject: "Профессор"}), 
+    (uu: Person {name: "Валерьян Петрович", post:"Доцент"}), 
+    (ii: Person {name: "Роман Евгеньевич", post:"Доцент"}), 
+    (oo: Person {name: "Михаил Владимирович", post: "Магистр"}), 
+    (pp: Person {name: "Михаил Юрьевич", post: "Магистр"}), 
+    (aa: Person {name: "Наталья Викторовна", post: "Старший преподаватель"}), 
+    (ss: Person {name: "Владимир Ильич", post: "Доцент"}), 
+    (dd: Persone {name: "Даниил Янович", post: "Магистр"}), 
+    (ff: Person {name: "Алина Сергеевна", post: "Магистр"}), 
+    (gg: Person {name: "Сергей Александрович", post: "Доцент"}), 
+    (hh: Person {name: "Юрий Борисович", post: "Магистр"}), 
+    (kk: Person {name: "Сергей Александрович", post: "Магистр"}),
+    (ll: Person {name: "Наталья Владимировна", post: "Доцент"}),
+    (zz: Person {name: "Евгений Анатольевич", post: "Доцент"})
+
+CREATE 
+	(s1: Subject {title: "ПБЗ"}), 
+    (s2: Subject {title: "ТИИТ"}), 
+    (s3: Subject {title: "ОДМ"}),
+    (s4: Subject {title: "ОТС"}), 
+    (s5: Subject {title: "АОИС"}), 
+    (s6: Subject {title: "СИМОИБ"}), 
+    (s7: Subject {title: "МРЗ"}), 
+    (s8: Subject {title: "ЛОИС"}), 
+    (s9: Subject {title: "ОГТ"}), 
+    (s10: Subject {title: "ППВИС"}), 
+    (s11: Subject {title: "ОС"}), 
+    (s12: Subject {title: "ЕЯИ"}), 
+    (s13: Subject {title: "МОИС"})
+    
+CREATE
+	(d1: Department {title: "ИИТ"}), 
+    (d2: Department {title: "Высшей математики"}),
+    (d3: Department {title: "Экономики"})
