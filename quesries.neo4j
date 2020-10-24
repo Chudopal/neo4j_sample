@@ -1,0 +1,19 @@
+MATCH (n: Person) WHERE n.name="Алексей Игоревич" RETURN n
+
+MATCH (n)-[:HAS]->(m) RETURN (n)
+
+MATCH (n)-[:TEACH{spetialty_name: "ИИ"}]->(m) RETURN (n)
+
+MATCH (n)-[:TEACH]->(:Subject{title: "ППВИС"}) RETURN (n)
+
+MATCH (n)-[:TEACH{spetialty_name:"ИИ"}]->(:Subject{title: "ППВИС"}) RETURN (n)
+
+MATCH (n)-[:TEACH{spetialty_name:"ИИ"}]->(:Subject{title: "ППВИС"}), (n)-[:TEACH{spetialty_name:"ИИ"}]->(:Subject{title: "ТИИТ"}) RETURN (n)
+
+MATCH (:Department{title: "ИИТ"})-[:HAS]->(m) RETURN (m)
+
+MATCH (:Department{title: "ИИТ"})-[:HAS]->(m), (m)-[:TEACH{spetialty_name: "ИИ"}]->(k) RETURN (m)
+
+MATCH (n)-[:HAS]->(:Person{name:"Даниил Вячеславович"}), (n)-[:HAS]->(k) RETURN (k)
+
+MATCH (n)-[:HAS]->(:Person{name:"Даниил Вячеславович"}), (n)-[s]->(k), (k)-[:TEACH]->(:Subject{title:"ОТС"}) RETURN [k]

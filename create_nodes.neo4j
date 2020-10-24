@@ -11,7 +11,7 @@ CREATE
     (pp: Person {name: "Михаил Юрьевич", post: "Магистр"}), 
     (aa: Person {name: "Наталья Викторовна", post: "Старший преподаватель"}), 
     (ss: Person {name: "Владимир Ильич", post: "Доцент"}), 
-    (dd: Persone {name: "Даниил Янович", post: "Магистр"}), 
+    (dd: Person {name: "Даниил Янович", post: "Магистр"}), 
     (ff: Person {name: "Алина Сергеевна", post: "Магистр"}), 
     (gg: Person {name: "Сергей Александрович", post: "Доцент"}), 
     (hh: Person {name: "Юрий Борисович", post: "Магистр"}), 
