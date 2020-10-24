@@ -32,7 +32,9 @@ CREATE
     (s10: Subject {title: "ППВИС"}), 
     (s11: Subject {title: "ОС"}), 
     (s12: Subject {title: "ЕЯИ"}), 
-    (s13: Subject {title: "МОИС"})
+    (s13: Subject {title: "МОИС"}),
+    (s14: Subject {title: "Высшая математика"}),
+    (s15: Subject {title: "Экономика"})
     
 CREATE
 	(d1: Department {title: "ИИТ"}), 
